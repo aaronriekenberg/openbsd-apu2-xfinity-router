@@ -9,5 +9,6 @@ What is here:
 * Using [rad](https://man.openbsd.org/rad) to provide IPv6 addresses to internal network
 * Using [pf](https://man.openbsd.org/pf) for firewall and IPv4 NAT
 * Using [pfstat](https://github.com/openbsd/ports/tree/master/net/pfstat) (from packages) to generate bandwidth graphs
-  * I use [pi-web](https://github.com/aaronriekenberg/pi-web) as a simple webserver for the bandwidth graphs.
-* Using [unbound](https://man.openbsd.org/unbound) as a caching proxy to provide DNS service to internal network.
+  * I use [pi-web](https://github.com/aaronriekenberg/pi-web) as a simple webserver for the bandwidth graphs
+* Using [unbound](https://man.openbsd.org/unbound) as a caching proxy to provide DNS service to internal network
+* Using [ntpd](https://man.openbsd.org/ntpd) to set the time on the apu2 and to provide time to the internal network
