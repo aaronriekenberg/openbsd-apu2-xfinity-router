@@ -1,3 +1,3 @@
 inet 192.168.1.1 255.255.255.0
 inet6 eui64
-inet6 alias fd00:192:168:1::1
+inet6 alias fd00:192:168:1::1 64
